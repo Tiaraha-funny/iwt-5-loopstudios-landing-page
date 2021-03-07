@@ -1,0 +1,21 @@
+{
+  "name": "iwt-5-loopstudios-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for wikend project",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiaraha-funny/iwt-5-loopstudios-landing-page.git"
+  },
+  "author": "Peta Jeannie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiaraha-funny/iwt-5-loopstudios-landing-page/issues"
+  },
+  "homepage": "https://github.com/Tiaraha-funny/iwt-5-loopstudios-landing-page#readme"
+}
