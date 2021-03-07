@@ -1,0 +1,45 @@
+.headings {
+    background-image: url(../../images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin: 0;
+    padding-bottom: 50%;
+}
+
+.header {
+    margin: 0;
+    padding-block-start: 36px;
+    padding-inline-start: 10%;
+    font-size: 30px;
+}
+
+.sub-headings {
+    border: 2px solid #ffffff;
+    font-size: 30px;
+    padding: 20px;
+    margin: auto;
+    max-width: 70%;
+    overflow-wrap: break-word;
+    margin-block-start: 50%;
+}
+
+.sub-header {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@media (min-width: 1000px) {
+
+    .headings {
+        background-image: url(../../images/desktop/image-hero.jpg);
+    }
+
+    .sub-headings {
+        font-size: 40px;
+        max-width: 40%;
+        margin: 0;
+        margin-inline-start: 150px;
+        margin-block-start: 150px;
+    }
+}
